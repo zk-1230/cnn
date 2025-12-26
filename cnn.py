@@ -34,7 +34,7 @@ CONFIG = {
     "seed": 42,
 
     # 选择要训练的模型： "mlp" 或 "cnn"
-    "model": "mlp",  # 切换为 "cnn" 训练CNN
+    "model": "cnn",  # 切换为 "cnn" 训练CNN
 
     # 训练相关参数（最优参数组合）
     "epochs": 15,     # 增加轮数确保收敛
